@@ -1,0 +1,6 @@
+{
+    "require": {
+        "irap/autoloader": "^1.0",
+        "irap/core-libs": "^1.1"
+    }
+}

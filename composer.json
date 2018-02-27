@@ -1,0 +1,26 @@
+{
+    "name": "irap/aws-emailer",
+    "type": "library",
+    "description": "A package that makes it easier to work with AWS Route53",
+    "keywords": ["aws","route53"],
+    "homepage": "https://github.com/iRAP-software/package-route53-wrapper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iRAP Developer",
+            "email": "support@irap.org",
+            "homepage": "http://www.irap.org/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "aws/aws-sdk-php": "3.52.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "iRAP\\Route53Wrapper\\": "src/",
+            "iRAP\\Route53Wrapper\\Objects\\": "src/objects/"
+        }
+    }
+}

@@ -1,0 +1,270 @@
+Array
+(
+    [0] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => NS
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 172800
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => ns-366.awsdns-45.com.
+                    [1] => ns-756.awsdns-30.net.
+                    [2] => ns-1995.awsdns-57.co.uk.
+                    [3] => ns-1038.awsdns-01.org.
+                )
+
+        )
+
+    [1] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => SOA
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 900
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => ns-366.awsdns-45.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+                )
+
+        )
+
+    [2] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => backups.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => A
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => 108.61.117.170
+                )
+
+        )
+
+    [3] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => capacity.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => CNAME
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => ec2-52-31-223-175.eu-west-1.compute.amazonaws.com
+                )
+
+        )
+
+    [4] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => docker-registry.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => A
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => 178.62.4.104
+                )
+
+        )
+
+    [5] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => eurorap.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => A
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => 52.17.125.26
+                )
+
+        )
+
+    [6] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => git.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => A
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => 178.62.84.233
+                )
+
+        )
+
+    [7] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => gitlab.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => CNAME
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => ec2-52-50-133-192.eu-west-1.compute.amazonaws.com
+                )
+
+        )
+
+    [8] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => database.release.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => CNAME
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => ec2-34-248-155-203.eu-west-1.compute.amazonaws.com
+                )
+
+        )
+
+    [9] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => downloader.release.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => CNAME
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => ec2-52-18-30-163.eu-west-1.compute.amazonaws.com
+                )
+
+        )
+
+    [10] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => logs.release.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => CNAME
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => ec2-52-18-30-163.eu-west-1.compute.amazonaws.com
+                )
+
+        )
+
+    [11] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => scalar.release.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => CNAME
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => ec2-52-18-30-163.eu-west-1.compute.amazonaws.com
+                )
+
+        )
+
+    [12] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => scheduler.release.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => CNAME
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => web2.irap-dev.org
+                )
+
+        )
+
+    [13] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => tester.release.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => CNAME
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => ec2-54-77-94-122.eu-west-1.compute.amazonaws.com
+                )
+
+        )
+
+    [14] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => vida.release.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => CNAME
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => ec2-52-18-30-163.eu-west-1.compute.amazonaws.com
+                )
+
+        )
+
+    [15] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => satis.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => A
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => 178.62.4.104
+                )
+
+        )
+
+    [16] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => svn.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => CNAME
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => ec2-54-154-46-213.eu-west-1.compute.amazonaws.com
+                )
+
+        )
+
+    [17] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => test.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => CNAME
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 500
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => ec2-52-16-248-255.eu-west-1.compute.amazonaws.com
+                )
+
+        )
+
+    [18] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => vida.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => A
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => 54.77.94.122
+                )
+
+        )
+
+    [19] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => _acme-challenge.api.vida.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => TXT
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 60
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => "OTUBe81MtLko9X8vl1vQ9sJbPJEgt25RTU4M_3vunYw"
+                )
+
+        )
+
+    [20] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => web1.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => CNAME
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => ec2-54-194-152-14.eu-west-1.compute.amazonaws.com
+                )
+
+        )
+
+    [21] => iRAP\Route53Wrapper\Objects\ZoneRecordSet Object
+        (
+            [m_name:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => web2.irap-dev.org.
+            [m_type:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => CNAME
+            [m_ttl:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => 300
+            [m_resourceRecords:iRAP\Route53Wrapper\Objects\ZoneRecordSet:private] => Array
+                (
+                    [0] => ec2-54-194-187-150.eu-west-1.compute.amazonaws.com
+                )
+
+        )
+
+)
