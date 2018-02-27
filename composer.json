@@ -1,5 +1,5 @@
 {
-    "name": "irap/aws-emailer",
+    "name": "irap/route53-wrapper",
     "type": "library",
     "description": "A package that makes it easier to work with AWS Route53",
     "keywords": ["aws","route53"],
