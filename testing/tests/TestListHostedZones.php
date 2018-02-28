@@ -19,9 +19,6 @@ class TestListHostedZones extends AbstractTest
     {
         $hostedZones = $this->m_client->getHostedZones();
         
-        
-        //print_r($hostedZones);
-        
         foreach ($hostedZones as $hostedZone)
         {
             $zonesRecords = $this->m_client->getZoneRecords($hostedZone);
@@ -36,7 +33,7 @@ class TestListHostedZones extends AbstractTest
                     $value='"hello-world"', //TXT values need to be wrapped in double quotes. 
                     $ttl=60
                 );
-
+                
                 $response = $this->m_client->changeResourceRecordSets($hostedZone, $changeRequest);
             }
             else
